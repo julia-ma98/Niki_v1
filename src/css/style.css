@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color:rgba(236, 188, 236, 0.375);  
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo {
+    height: 800px;
+    background: url(https://kartinki.pics/pics/uploads/posts/2022-09/thumbs/1662760577_66-kartinkin-net-p-kot-s-kare-oboi-73.jpg) center center/cover no-repeat 
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+    height: 100px;    
+}
+
+.logo .logo_text {
+    color: #eff6c8;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2px;   
+    margin: 9px auto; 
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 239, 213);
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;                                                              
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 31px;
+}
+
+.simple .title_big {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.promo .promo_text {
+    color: rgb(255, 239, 213);
+    text-align: center;
+    font-size: 27px;
+    margin-top: 35px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 1px;
+}
+
+.promo .promo_text span {
+    color: rgb(255, 161, 161);
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 48px auto;
+    width: 310px;
+    height: 70px;
+    box-shadow: inset 0 -5px 1px rgba(68, 67, 67, 0.501);
+    border-radius: 15px;
+    border: 3px solid rgba(63, 61, 60, 0.561);
+    background-image: linear-gradient(to top, #E0FFFF 100%, #BA55D3 0%);
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer; 
+}
+
+.more {
+    margin-top: 49px;
+}
+
+.more_text {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 239, 213);
+}
+
+.more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1px;
+    width: 76px;
+    height: 60px;
+}
+
+.waiting {
+    min-height: 630px;
+    background-color: #B0C4DE;
+    padding: 73px 0 76px 0;
+}
+
+.waiting .waiting_header {
+    text-align: center;
+    font-size: 35px;
+    color: #402c24;
+    font-weight: 600;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    height: 4px;
+    width: 300px;
+    background-color: #E0FFFF;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    text-align: center;
+    font-size: 30px;
+    color: #402c24;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    vertical-align: top;
+    width: 339px;
+    text-align: center;
+    color: #2c2737;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.rain {
+    min-height: 550px;
+    padding: 107px 0 100px 0;
+    background-color: rgba(24, 70, 86, 0.755);
+}
+
+.rain .rain_header {
+    margin-left: 445px;
+    color:  rgb(255, 239, 213);
+    font-size: 30px;
+}
+
+.rain .rain_text {
+    margin-left: 445px;
+    font-size: 20px;
+    font-weight: 500;
+    color:  rgb(255, 239, 213);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rain .rain_text span {
+    font-weight: 800;
+    color: rgb(255, 161, 161);
+}
+
+.rain .rain_img {
+    position: absolute;
+    top: -35px;
+    left: -150px;
+    height: 478px;
+    width: 530px;
+}
+
+.finish {
+    min-height: 350px;
+    padding: 30px 0 25px 0;
+}
+
+.finish .finish_header {
+    text-align: center;
+    font-size: 35px;
+    color: #f9fada;
+    font-weight: 600;
+}
+
+.finish .finish_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 100px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: #cfe1f679;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_text {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #fdffe1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.present {
+    min-height: 300px;
+    padding: 46px 0 46px 0;
+    background-color: #dbe1e1;
+}
+
+.present .present_divider .present_icon {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+.present .present_divider .present_text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    color: #535455;
+}
+
+.present .present_divider .present_button {
+    display: block;
+    margin: 40px auto;
+    width: 310px;
+    height: 70px;
+    box-shadow: inset 0 -5px 1px rgba(68, 67, 67, 0.501);
+    border-radius: 15px;
+    border: 3px solid rgba(63, 61, 60, 0.561);
+    background-image: linear-gradient(to top, #95caca 100%, #BA55D3 0%);
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer; 
+}
+
+.footer_links {
+    min-height: 65px;
+   background-color: #c4dfffcc;
+   margin-top: auto;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 60px;
+}
+
+.footer_links .contayner {
+    display: flex;
+    flex-direction: column;
+    min-height: 60px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.links .links_one {
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    color: #101011;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 120px;
+    margin-top: 10px;
+}
+
+.links .links_two {
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #ddd2f1;
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.footer_links .links .links_divider {
+    height: 20px;
+    width: 2px;
+    background-color: #101011;
+    color: #2b2b2e;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #090909;
+}
+.footer_links .links_number {
+    font-size: 20px;
+    text-align: center;
+    color: #070706;
+    margin-top: 4px;
+}
